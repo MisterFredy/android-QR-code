@@ -11,10 +11,27 @@
     tools:context=".UpdateMachine">
 
     <TextView
+        android:id="@+id/tv_e_0id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="id" />
+
+    <TextView
+        android:id="@+id/tv_e_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_e_0id"
+        android:layout_below="@+id/tv_e_0id"
+        android:layout_marginTop="10dp"
+        android:text="@+id/tv_e_id" />
+
+    <TextView
         android:id="@+id/tv_e_Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:layout_alignLeft="@+id/tv_e_id"
+        android:layout_below="@+id/tv_e_id"
         android:layout_marginTop="10dp"
         android:text="Name" />
 

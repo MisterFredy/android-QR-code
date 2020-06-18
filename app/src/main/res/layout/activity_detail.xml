@@ -90,7 +90,7 @@
         android:layout_below="@+id/TextView04"
         android:layout_alignLeft="@+id/TextView04"
         android:layout_marginTop="40dp"
-        android:text="Kembali" />
+        android:text="back" />
 
 
 </RelativeLayout>
