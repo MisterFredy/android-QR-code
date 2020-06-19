@@ -42,6 +42,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        FloatingActionButton fqr = (FloatingActionButton) findViewById(R.id.qrfab);
+        fqr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, scanQR.class);
+                startActivity(intent);
+            }
+        });
         ma = this;
         database = new DataHelper(this);
         RefreshList();
